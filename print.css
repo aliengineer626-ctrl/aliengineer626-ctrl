@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("logo/img.jpg");
+
+background-size: cover;
+   
+background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #337ab7;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.product-card {
+    
+    
+    background: rgb(139, 121, 74,0.8);
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+} 
+/* تنسيق النافذة */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+  }
+  
+  .popup-content {
+    position: relative;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ff0000;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+.product-di{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+ }
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+img{
+    border-radius: 10px;
+width: 170px;
+height: 190px;
+}
+.but{
+    text-align: center;
+}
+
+button {   
+
+    background: #0c0e18;
+    color: white;
+    border: double;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #5f3150;
+}
+

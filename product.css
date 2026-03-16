@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('logo/gg.jpg');
+}
+.title {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #f7f3f3;
+}
+
+form {
+ background-color:rgba(63, 125, 172, 0.8);
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    height: 400px;
+    gap: 10px;
+    color: aliceblue;
+    font-size: 24px;
+}
+.con{
+    display: flex;
+}
+label {
+    font-weight: bold;
+}
+
+input ,textarea{
+   width: 90%;    padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+   
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    background: #18231a;
+    color: white;
+    border: double;
+    font-size: 20px;
+    text-align: center;
+    width:50%;
+}
+
+button:hover {
+    background: #4a634f;
+}
+.as{
+    opacity: 111;
+    width: 100%;
+    float: right;
+flex-direction: column;}
+.ad{width: 100%;
+    float: left;    flex-direction: column;
+}
+.but{ 
+    float: none;    flex-direction: column;
+text-align: center;
+}
+.message {
+    margin-top: 10px;
+    font-size: 19px;
+    color: #d9534f;
+}
